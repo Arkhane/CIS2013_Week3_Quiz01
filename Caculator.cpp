@@ -20,7 +20,7 @@ int main()
 		cout << "Enter a second number: \n";
 		cin >> secondNumber;
 
-		cout << "Enter operator +,-,*,/: \n";
+		cout << "Enter operator + or *: \n";
 		cin >> op;
 
 		if (op == '+')
@@ -28,20 +28,14 @@ int main()
 			result = firstNumber + secondNumber;
 		}
 
-		if (op == '-')
-		{
-			result = firstNumber - secondNumber;
-		}
+		
 
 		if (op == '*')
 		{
 			result = firstNumber * secondNumber;
 		}
 
-		if (op == '/')
-		{
-			result = firstNumber / secondNumber;
-		}
+		
 
 		cout << "Your result is: " << result;
 
